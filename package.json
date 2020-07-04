@@ -12,6 +12,11 @@
 	"activationEvents": [
 		"onCommand:vsc-nes.nesRun"
 	],
+	"publisher": "anuoua",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/anuoua/vsc-nes.git"
+	},
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [
