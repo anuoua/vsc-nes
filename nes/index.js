@@ -10,8 +10,8 @@ const keyMap = {
   '83': Joypad.BUTTONS.DOWN,
   '65': Joypad.BUTTONS.LEFT,
   '68': Joypad.BUTTONS.RIGHT,
-  '74': Joypad.BUTTONS.A,
-  '75': Joypad.BUTTONS.B,
+  '75': Joypad.BUTTONS.A,
+  '74': Joypad.BUTTONS.B,
   '13': Joypad.BUTTONS.START,
   '32': Joypad.BUTTONS.SELECT,
 };

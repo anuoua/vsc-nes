@@ -6,9 +6,9 @@ module.exports = {
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: 'REPLACE_PATH_VARIABLE'
+    publicPath: process.env.NODE_ENV === 'production' ? 'REPLACE_PATH_VARIABLE' : undefined
   },
-  mode: 'production',
+  mode: process.env.NODE_ENV,
   devServer: {
     hot: true,
     contentBase: path.join(__dirname, 'dist'),
