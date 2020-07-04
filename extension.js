@@ -14,18 +14,18 @@ function activate(context) {
 
 	// Use the console to output diagnostic information (console.log) and errors (console.error)
 	// This line of code will only be executed once when your extension is activated
-	console.log('Congratulations, your extension "vs-nes" is now active!');
+	console.log('Congratulations, your extension "vsc-nes" is now active!');
 
 	// The command has been defined in the package.json file
 	// Now provide the implementation of the command with  registerCommand
 	// The commandId parameter must match the command field in package.json
-	let disposable = vscode.commands.registerCommand('vs-nes.nesRun', function () {
+	let disposable = vscode.commands.registerCommand('vsc-nes.nesRun', function () {
 		// The code you place here will be executed every time your command is executed
 
 		// Display a message box to the user
 		const panel = vscode.window.createWebviewPanel(
 			'nes-runtime', // Identifies the type of the webview. Used internally
-			'Nes Run', // Title of the panel displayed to the user
+			'Nes', // Title of the panel displayed to the user
 			vscode.ViewColumn.One, // Editor column to show the new webview panel in.
 			{
 				enableScripts: true,

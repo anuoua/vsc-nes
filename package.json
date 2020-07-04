@@ -1,6 +1,6 @@
 {
-	"name": "vs-nes",
-	"displayName": "vs-nes",
+	"name": "vsc-nes",
+	"displayName": "vsc-nes",
 	"description": "nes emulator for vscode",
 	"version": "0.0.1",
 	"engines": {
@@ -10,13 +10,13 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:vs-nes.nesRun"
+		"onCommand:vsc-nes.nesRun"
 	],
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "vs-nes.nesRun",
+				"command": "vsc-nes.nesRun",
 				"title": "Nes Run"
 			}
 		]
