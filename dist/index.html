@@ -1,0 +1,22 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>nes</title><style>#nes-container {
+      width: 800px;
+      background: gray;
+    }
+    #file {
+      visibility: hidden;
+    }
+    #rom {
+      border: 1px solid black;
+      padding: 5px;
+      background: white;
+    }
+    #run {
+      border: 1px solid black;
+      padding: 5px;
+      background: white;
+    }
+    .wrap {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+    }</style></head><body><div class="wrap"><div><label id="rom" for="file">select rom</label> <input id="file" type="file"> <button id="run">play</button></div><div><canvas id="nes-container" width="800" height="800"></canvas></div></div><script src="REPLACE_PATH_VARIABLE/main.js"></script></body></html>

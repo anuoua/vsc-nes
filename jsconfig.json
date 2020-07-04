@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es6",
+		"checkJs": false,  /* Typecheck .js files. */
+		"lib": [
+			"dom",
+			"es6"
+		]
+	},
+	"exclude": [
+		"node_modules"
+	],
+	"include": [
+		"nes"
+	]
+}
