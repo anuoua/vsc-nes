@@ -1,6 +1,6 @@
 # vsc-nes
 
-nes emulator for vsc.
+nes emulator for visual studio code vscode.
 
 ## usage
 
